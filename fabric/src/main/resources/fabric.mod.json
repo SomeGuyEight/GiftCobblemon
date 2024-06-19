@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "addontemplate",
+  "id": "giftcobblemon",
   "version": "${version}",
 
-  "name": "AddonTemplate",
+  "name": "GiftCobblemon",
   "description": "",
   "authors": [],
   "contact": {},
@@ -14,12 +14,12 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.addontemplate.fabric.AddonTemplateFabric"
+      "com.giftcobblemon.fabric.GiftCobblemonFabric"
     ]
   },
   "mixins": [
-    "template-fabric.mixins.json",
-    "template-common.mixins.json"
+    "giftcobblemon-fabric.mixins.json",
+    "giftcobblemon-common.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.15.11",
